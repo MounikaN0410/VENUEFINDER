@@ -1,0 +1,14 @@
+<form action="/charge" method="post">
+    <article>
+      <label>
+        <span>Amount is {{ amount }}</span>
+      </label>
+    </article>
+    <input type="number" name="amount" value= 100/>  
+
+   <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="{{ key }}"
+            data-description="A Flask Charge"
+            data-amount="{{ amount }}"
+            data-locale="auto"></script> 
+  </form>

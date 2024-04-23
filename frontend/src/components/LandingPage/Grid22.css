@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  html{
+    background-color:#eee;
+  }
+  .container{
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+    .box{
+      background-color:#333;
+      padding:20px;
+      border-radius:10px;
+      color:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:40px;
+      font-family:sans-serif;
+    }
+  
+    .wrapper {
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(2, 50vw);
+        grid-template-rows: 50vh;
+        background-color: #fff;
+        color: #444;
+        
+    }
+    
+    .content {
+        height: 400px;
+        padding: 10px;
+    }
+    
+    .column-image {
+        background: url("https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg")
+            no-repeat center/cover;
+    }
+
+    .containerPluspoints{
+      height: auto;
+      padding: 3vh;
+    }
+
+    .review {
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+    
+    img {
+      max-width: 100%;
+      max-height:100%;
+    }
+    
+    .text {
+      font-size: 20px;
+      padding-left: 20px;
+      width: 60%;
+    }
+
+    h2{
+      padding-left: 20px;
+      width: 60%;
+      margin-top: 20px;
+    }
+
+    .image img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
